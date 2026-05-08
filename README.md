@@ -35,7 +35,7 @@ The final cascade evaluation reached **96.15% accuracy** and **96.18% F1-score**
 The file Model.py contains the full training, validation and test pipeline for the proposed cross-attention model.
 It includes dataset loading and preprocessing (fundus images + clinical metadata), definition of the image encoder (ViT), metadata encoder, and cross-attention fusion module, as well as hyperparameter optimization with Optuna, training and validation loops, and final evaluation on the test set (accuracy, precision, recall, F1-score and AUC).
 
-Additional scripts provide the cascaded system evaluation and explainability tools based on GradCAM, LIME and SHAP for model interpretation, so that the entire workflow—from training to analysis of explanations—can be reproduced and adapted to other AMD datasets.
+- Additional scripts provide the cascaded system evaluation and explainability tools based on GradCAM, LIME and SHAP for model interpretation, so that the entire workflow—from training to analysis of explanations—can be reproduced and adapted to other AMD datasets.
 ---
 
 ## Performance
